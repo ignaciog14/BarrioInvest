@@ -6,11 +6,13 @@ import './App.css'
 // import { isConnected, requestAccess, getPublicKey } from '@stellar/freighter-api'
 
 function App() {
-  const [walletConnected, setWalletConnected] = useState(false)
-  const [publicKey, setPublicKey] = useState('')
+  const [walletConnected] = useState(false)
+  const [publicKey] = useState('')
 
   const connectWallet = async () => {
     // TODO: Implement Freighter wallet connection
+    // setWalletConnected(true)
+    // setPublicKey(await getPublicKey())
     console.log('Connect wallet functionality to be implemented')
   }
 
