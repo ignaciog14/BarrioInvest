@@ -1,0 +1,13 @@
+[network.testnet]
+rpc-url = "https://soroban-testnet.stellar.org"
+network-passphrase = "Test SDF Network ; September 2015"
+
+[network.standalone]
+rpc-url = "http://localhost:8000/soroban/rpc"
+network-passphrase = "Standalone Network ; February 2017"
+
+[contract]
+name = "barrioinvest-contract"
+
+[deploy.testnet]
+network = "testnet"
